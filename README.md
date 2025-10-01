@@ -10,7 +10,8 @@ Users can filter traffic by protocol (e.g., UDP Null), either analyzing pre-reco
 ## 🌟 Features
 
 - **Live Traffic Capture:** Real-time packet sniffing using Scapy.  
-- **PCAP File Analysis:** Analyze `.pcap` files and validate model predictions using Wireshark.  
+- **PCAP File Analysis:** Analyze `.pcap` files and validate model predictions using Wireshark.
+- ![udp null pcap file analysis](images/ewewss.png)
 - **Protocol-Based Filtering:** Apply filters (UDP, LDAP, MSSQL, SYN, etc.) to generate predictions for live traffic or `.pcap` files.  
 - **ML-Powered Detection:** XGBoost model trained on **CICDDoS2019 dataset** for multi-class attack detection (DDoS, SQLi, XSS).  
 - **Confidence Scores:** Display confidence for each classification alongside benign/malicious labels.  
