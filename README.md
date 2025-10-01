@@ -21,7 +21,8 @@ Users can filter traffic by protocol (e.g., UDP Null), either analyzing pre-reco
 ## 🛠 How It Works
 
 1. **Select Traffic Source:**  
-   - `.pcap` file → Load pre-recorded network traffic.  
+   - `.pcap` file → Load pre-recorded network traffic.
+   - ![pcap file classification](images/reree.png)  
    - Live traffic → Capture packets directly from your device using Scapy.
    - ![Live Traffic Classification](images/wnnw.png)
 
