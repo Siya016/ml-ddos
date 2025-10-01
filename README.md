@@ -22,7 +22,8 @@ Users can filter traffic by protocol (e.g., UDP Null), either analyzing pre-reco
 
 1. **Select Traffic Source:**  
    - `.pcap` file → Load pre-recorded network traffic.  
-   - Live traffic → Capture packets directly from your device using Scapy.  
+   - Live traffic → Capture packets directly from your device using Scapy.
+   - ![Live Traffic Classification](images/wnnw.png)
 
 2. **Apply Protocol Filter:**  
    - Choose protocols like UDP Null, LDAP, MSSQL, SYN, etc.  
